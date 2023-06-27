@@ -15,7 +15,6 @@ public class SatYa : Isatya
     }
     public void readvalues()
     {
-        //Removed var
         Console.WriteLine(_config.GetConnectionString("Sqlite"));
     }
 }
